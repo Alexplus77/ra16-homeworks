@@ -1,15 +1,13 @@
-
 import React from "react";
+
 import Calendar from "./calendar";
-import './css/main.css'
 
 function App() {
+
+  const now = new Date()
+
   return (
-    <React.Fragment>
-      <Calendar/>
-    </React.Fragment>
-
-
+        <Calendar  date={now}/>
   );
 }
 
