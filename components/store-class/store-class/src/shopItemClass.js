@@ -12,9 +12,9 @@ const ShopItemClass=()=>{
                 single back vent. Slim fit with clean, straight shape. Above-knee length.
             </div>
             <div className="highlight-window mobile">
-                <div className="highlight-overlay"></div>
+                <div className="highlight-overlay"/>
             </div>
-            <div className="divider"></div>
+            <div className="divider"/>
             <div className="purchase-info">
                 <div className="price">£399.00</div>
                 <button>Добавить в корзину</button>
