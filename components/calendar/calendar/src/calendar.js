@@ -40,7 +40,7 @@ function Calendar({date}) {
                 <CalendarWeek daysWeek={daysWeek}/>
                 </thead>
                 <tbody>
-                < CalendarDate date={date} daysWeek={daysWeek}/>
+                < CalendarDate  date={date} daysWeek={daysWeek}/>
                 {/*<tr>*/}
                 {/*    <td className="ui-datepicker-other-month">27</td>*/}
                 {/*    <td className="ui-datepicker-other-month">28</td>*/}
